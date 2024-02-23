@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(97, 97, 255);
+    padding: 20px;
+}
+
+.accomadation{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: start;
+    margin-left: 305px;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+
+.accomadation input{
+    padding: 8px 5px;
+}
+
+.self{
+    column-gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 365px;
+}
+
+.self input{
+    padding: 8px 5px;
+}
+
+.guest{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 355px;
+    column-gap: 20px;
+    margin-top: 30px;
+}
+
+.guest input{
+    padding: 8px 5px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 30px;
+    margin-left: 350px;
+    column-gap: 20px;
+}
+
+.email input{
+    padding: 8px 5px;
+    padding-right: 410px;
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 30px;
+    margin-left: 420px;
+    padding: 8px 5px;
+    padding-right: 410px;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 30px;
+    margin-left: 340px;
+    column-gap: 20px;
+}
+
+.check input{
+    padding: 8px 5px;
+}
+
+
+
+.choise{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 295px;
+    margin-top: 30px;
+    column-gap: 20px;
+}
+.choise input{
+    padding: 8px 5px;
+
+}
+
+
+
+
+.onoffswitch {
+    position: relative;
+    width: 90px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+    display: none;
+}
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #bbb;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 14px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1;
+    color: #FFFFFF;
+}
+
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE;
+    color: #999999;
+    text-align: right;
+}
+
+.onoffswitch-switch {
+    display: block;
+    width: 22px;
+    margin: 4px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 56px;
+    border: 2px solid #bbb;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+
+.prefer{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 30px;
+    margin-left: 290px;
+    column-gap: 20px;
+}
+
+.prefer input{
+    padding: 8px 5px;
+}
+
+.animal{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 30px;
+    margin-left: 370px;
+    column-gap: 20px;
+}
+
+.comments{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 20px;
+    margin-top: 30px;
+    margin-left: 330px;
+}
+
+.comments input{
+    padding: 30px 200px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 70px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.button .request{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.button .request:hover {
+    color: red;
+    transition: 1s;
+}
+
+.button .request:active {
+    color: greenyellow;
+    transition: 1s;
+}
+
+.button .cancel{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    margin-left: 130px;
+    cursor: pointer;
+    margin-right: 80px;
+}
+
+.button .cancel:hover {
+    color: blue;
+    transition: 1s;
+}
+
+.button .cancel:active {
+    color: greenyellow  ;
+
+}
